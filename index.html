@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jacob Ganon - Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar">
+      <div class="nav-container">
+        <div class="nav-logo">
+          <a href="#home">Jacob Ganon</a>
+        </div>
+        <input type="checkbox" id="nav-toggle" class="nav-toggle" />
+        <label for="nav-toggle" class="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </label>
+        <div class="nav-menu">
+          <a href="#home" class="nav-link">Home</a>
+          <a href="#about" class="nav-link">About</a>
+          <a href="#projects" class="nav-link">Projects</a>
+          <a href="#experience" class="nav-link">Experience</a>
+          <a href="#contact" class="nav-link">Contact</a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <div class="hero-content">
+        <div class="hero-text">
+          <h1 class="hero-title">Hi, I'm <span class="highlight">Jacob Ganon</span></h1>
+          <p class="hero-subtitle">Software Engineer, Data Scientist & AI Engineer</p>
+          <p class="hero-description">
+            I specialize in building and deploying machine learning models and creating full-stack web applications that
+            solve real-world problems.
+          </p>
+          <div class="hero-buttons">
+            <a href="#projects" class="btn btn-primary">View My Work</a>
+            <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+          </div>
+        </div>
+        <div class="hero-image">
+          <div class="profile-card">
+            <div class="profile-img">
+              <i class="fas fa-user"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="scroll-indicator">
+        <div class="scroll-arrow"></div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+      <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-content">
+          <div class="about-text">
+            <p>
+              I'm a passionate software engineer and data science student based in Arizona. Currently pursuing my
+              studies at Arizona State University while gaining hands-on experience through various projects and
+              internships.
+            </p>
+            <p>
+              My expertise spans across full-stack web development, machine learning, and AI engineering. I enjoy
+              solving complex problems and creating innovative solutions that make a real impact.
+            </p>
+            <div class="skills">
+              <h3>Technical Skills</h3>
+              <div class="skill-tags">
+                <span class="skill-tag">Python</span>
+                <span class="skill-tag">JavaScript</span>
+                <span class="skill-tag">React</span>
+                <span class="skill-tag">Node.js</span>
+                <span class="skill-tag">Machine Learning</span>
+                <span class="skill-tag">Data Science</span>
+                <span class="skill-tag">SQL</span>
+                <span class="skill-tag">MongoDB</span>
+                <span class="skill-tag">AWS</span>
+                <span class="skill-tag">Git</span>
+              </div>
+            </div>
+          </div>
+          <div class="about-stats">
+            <div class="stat-item">
+              <div class="stat-number">3+</div>
+              <div class="stat-label">Years Experience</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-number">10+</div>
+              <div class="stat-label">Projects Completed</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-number">3</div>
+              <div class="stat-label">Companies Worked With</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+      <div class="container">
+        <h2 class="section-title">Featured Projects</h2>
+        <div class="projects-grid">
+          <div class="project-card featured-project">
+            <div class="project-header">
+              <i class="fas fa-robot project-icon"></i>
+              <div class="project-date">Jan 2025 - Present</div>
+            </div>
+            <h3>Evotion AI - AI Chatbot Platform</h3>
+            <p>
+              Developing an innovative AI Chatbot that integrates multiple state-of-the-art AI models including text,
+              image, and audio capabilities. The platform serves as an exploration hub for users to experiment with
+              various AI technologies, featuring advanced RAG (Retrieval Augmented Generation) for enhanced search and
+              memory functionality.
+            </p>
+            <div class="project-tech">
+              <span class="tech-tag">AI/ML</span>
+              <span class="tech-tag">RAG</span>
+              <span class="tech-tag">Python</span>
+              <span class="tech-tag">Database Design</span>
+              <span class="tech-tag">Software Infrastructure</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="project-link">
+                <i class="fas fa-external-link-alt"></i>
+                View Project
+              </a>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-header">
+              <i class="fas fa-dumbbell project-icon"></i>
+              <div class="project-date">August 2023</div>
+            </div>
+            <h3>Caliza Gym Management System</h3>
+            <p>
+              Developed a comprehensive gym management software for Caliza, a gymnastics and bouldering gym in Mexico.
+              The system streamlined operations including member management, class scheduling, and inventory tracking.
+            </p>
+            <div class="project-tech">
+              <span class="tech-tag">React</span>
+              <span class="tech-tag">Node.js</span>
+              <span class="tech-tag">MongoDB</span>
+              <span class="tech-tag">Express</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="project-link">
+                <i class="fas fa-external-link-alt"></i>
+                View Project
+              </a>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-header">
+              <i class="fas fa-building project-icon"></i>
+              <div class="project-date">August 2022</div>
+            </div>
+            <h3>Hacienda Del Oro Management Suite</h3>
+            <p>
+              Collaborated with the owner of Hacienda del Oro country club to create software solutions that improved
+              communication and management across multiple companies and departments.
+            </p>
+            <div class="project-tech">
+              <span class="tech-tag">Python</span>
+              <span class="tech-tag">Django</span>
+              <span class="tech-tag">PostgreSQL</span>
+              <span class="tech-tag">AWS</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="project-link">
+                <i class="fas fa-external-link-alt"></i>
+                View Project
+              </a>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-header">
+              <i class="fas fa-mobile-alt project-icon"></i>
+              <div class="project-date">January 2022</div>
+            </div>
+            <h3>Moga Gymnastics App</h3>
+            <p>
+              Designed and implemented a class and product inventory management application for Moga gymnastics gym,
+              addressing specific operational needs and improving efficiency.
+            </p>
+            <div class="project-tech">
+              <span class="tech-tag">React Native</span>
+              <span class="tech-tag">Firebase</span>
+              <span class="tech-tag">JavaScript</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="project-link">
+                <i class="fas fa-external-link-alt"></i>
+                View Project
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+      <div class="container">
+        <h2 class="section-title">Experience</h2>
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <div class="timeline-date">Jan 2025 — Present</div>
+              <h3>Software Engineer</h3>
+              <h4>Evotion AI</h4>
+              <p>
+                Developing an AI Chatbot platform that integrates cutting-edge AI models for text, image, and audio
+                processing. Implementing advanced RAG (Retrieval Augmented Generation) systems and building scalable
+                software infrastructure for multi-modal AI interactions.
+              </p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <div class="timeline-date">2023 — Present</div>
+              <h3>Full Stack Web Developer</h3>
+              <h4>Caliza</h4>
+              <p>
+                Leading the development of comprehensive gym management solutions, expanding from a single gym to
+                multiple facilities across Mexico.
+              </p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <div class="timeline-date">2022 — 2023</div>
+              <h3>Software Engineer</h3>
+              <h4>Hacienda del Oro</h4>
+              <p>
+                Developed custom software solutions for country club operations, improving communication and management
+                efficiency across departments.
+              </p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <div class="timeline-date">2022 — Present</div>
+              <h3>Computer Science Student</h3>
+              <h4>Arizona State University</h4>
+              <p>
+                Pursuing Bachelor's degree in Computer Science with focus on Data Science and Artificial Intelligence.
+              </p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <div class="timeline-date">2022</div>
+              <h3>App Developer</h3>
+              <h4>Moga</h4>
+              <p>
+                Created mobile application for gymnastics gym operations, focusing on inventory management and class
+                scheduling.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+      <div class="container">
+        <h2 class="section-title">Let's Work Together</h2>
+        <div class="contact-content">
+          <div class="contact-text">
+            <p>
+              I'm always interested in new opportunities and exciting projects. Whether you have a question or just want
+              to say hi, I'll try my best to get back to you!
+            </p>
+          </div>
+          <div class="contact-links">
+            <a href="mailto:jacoboganon@evotion.ai" class="contact-link">
+              <i class="fas fa-envelope"></i>
+              <span>jacoboganon@evotion.ai</span>
+            </a>
+            <a href="https://www.linkedin.com/in/jacobo-ganon/" class="contact-link" target="_blank">
+              <i class="fab fa-linkedin"></i>
+              <span>LinkedIn</span>
+            </a>
+            <a href="https://github.com/JacoboGanon" class="contact-link" target="_blank">
+              <i class="fab fa-github"></i>
+              <span>GitHub</span>
+            </a>
+            <a href="https://jacobgm.com" class="contact-link" target="_blank">
+              <i class="fas fa-globe"></i>
+              <span>Website</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <p>&copy; 2025 Jacob Ganon. All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>
